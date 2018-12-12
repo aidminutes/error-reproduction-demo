@@ -1,0 +1,16 @@
+{
+  "name": "error-reproduction-demo",
+  "version": "0.1.0",
+  "main": "index.ts",
+  "repository": "https://github.com/aidminutes/error-reproduction-demo.git",
+  "author": "aidminutes",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*",
+      "applications/*"
+    ]
+  }
+}
+
